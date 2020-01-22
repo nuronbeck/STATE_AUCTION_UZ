@@ -1,0 +1,122 @@
+.defaultPageHeader
+{
+	height: 80px;
+	font-family: 'Roboto';
+	font-size: 24px;
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+}
+.defaultPageHeader div
+{
+	height: 100%;
+	display: flex;
+}
+.headerLogo
+{
+	background-color: #3C948B;
+	width: 40%;
+	align-items: center;
+	justify-content: center;
+}
+.headerMenu
+{
+	width: 60%;
+	background-color: #236D65;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.headerMenu .menuItem
+{
+	display: flex;
+	align-items: center;
+}
+.headerMenu .menuItem:hover
+{
+	cursor: pointer;
+	text-shadow: 1px 1px 2px black, 0 0 1em green;
+}
+.lotListHeader
+{
+	color: #206F67;
+	font-size: 26px;
+	padding: 40px 0 20px 0;
+	padding-left: 15%;
+	border-bottom: 1px solid #727272;
+	margin-bottom: 30px;
+}
+
+.container
+{
+	width: 96vw;
+	margin: 0 auto;
+}
+.tableContent table
+{
+	border-left: 1px solid #727272;
+	border-top: 1px solid #727272;
+	border-spacing: 0;
+	font-size: 20px;
+	font-family: Roboto;
+	width: 100%;
+}
+.tableContent table tr td
+{
+	border-bottom: 1px solid #727272;
+	border-right: 1px solid #727272;
+	text-align: center;
+}
+.tableContent table .tableHeader
+{
+	background-color: #3C948B;
+	color: #fff;
+	height: 32px;
+}
+.tableContent table .tableHeader td
+{
+	padding: 16px;
+}
+.tableContent table .tableData
+{
+	color: #000;
+	height: 32px;
+}
+.tableContent table .tableData:hover
+{
+	background-color: rgba(60, 148, 139, 0.2);
+}
+.tableContent table .tableData:nth-child(odd)
+{
+	background-color: #ECECEC;
+}
+.tableContent table .tableData:hover
+{
+	background-color: rgba(60, 148, 139, 0.2);
+}
+.tableContent table .tableData td
+{
+	padding: 20px;
+}
+
+.nextPageBlock
+{
+	padding-top: 30px;
+	text-align: right;
+	padding-right: 4%;
+	padding-bottom: 70px;
+}
+.nextPageBlock .btnNextLots
+{
+	background-color: #0098B9;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: Roboto;
+	border: none;
+	padding: 10px 15px;
+	transition: .2s ease-in-out;
+}
+.nextPageBlock .btnNextLots:hover
+{
+	transform: scale(1.05);
+}

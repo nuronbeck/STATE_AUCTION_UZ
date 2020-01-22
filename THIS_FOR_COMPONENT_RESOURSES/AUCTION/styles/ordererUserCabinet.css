@@ -1,0 +1,173 @@
+.orderedUserCabinetContainer
+{
+	display: block;
+}
+
+.orderedUserCabinetDashboard
+{
+	width: 250px;
+	height: 100vh;
+	background-color: #3C948B;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: flex-start;
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Roboto';
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetUserName
+{
+	height: 80px;
+	background-color: #236D65;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	border-bottom: 1px solid #000;
+	padding: 0 10px;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetUserName .orderedUserCabinetUserIcon
+{
+	width: 60px;
+	height: 60px;
+	background-color: #5AE1FF;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetMenu
+{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: flex-start;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetMenu .orderedUserCabinetMenuItems
+{
+	padding: 17px 10px;
+	border-bottom: 1px solid #000;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+.activeMenuItem
+{
+	background-color: #22AA9C;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetMenu .orderedUserCabinetMenuItems:hover
+{
+	background-color: #22AA9C;
+}
+
+.orderedUserCabinetContainer .orderedUserCabinetPanel
+{
+	width: 80%;
+	background-color: #dfdfdf;
+	margin-left: 250px;
+	height: 200vh;
+	font-family: 'Roboto';
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelMyOrders
+{
+	height: 80px;
+	padding: 0 15px 0 115px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	color: #206F67;
+	border-bottom: 1px solid #727272;
+
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelMyOrders span
+{
+	font-size: 30px;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelMyOrders button
+{
+	background-color: #0098B9;
+	font-size: 20px;
+	border-radius: 7px;
+	padding: 5px 9px;
+	border: none;
+	color: #fff;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock
+{
+	font-family: 'Roboto';
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot
+{
+	padding: 60px 15px 10px 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotsBlockLotTitle
+{
+	color: #1E675F;
+	font-size: 26px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #727272;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotDescription
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 24px;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotDescription span
+{
+	font-weight: bold;
+	padding-right: 10px;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotItemTable
+{
+	width: 100%;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotItemTable table
+{
+	width: 100%;
+	border: 1px solid #000;
+	border-spacing: 0;
+	font-size: 20px;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotItemTable table tr td
+{
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: #0098B9;
+	padding: 15px 0;
+	text-align: center;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotItemTable table tr td:last-child
+{
+	border-right: none;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotItemTable table tr:last-child td
+{
+	border-bottom: none;
+	background-color: #fff;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotItemTable table tr:last-child td:nth-child(3)
+{
+	color: #f00;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotItemTable table tr:last-child td:nth-child(4)
+{
+	color: #4EAA62;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotItemCounter
+{
+	width: 100%;
+	font-size: 24px;
+	padding: 40px 0 10px 0;
+	text-align: center;
+	border-bottom: 1px solid #727272;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock .orderedUserCabinetPanelOrderedLotsBlockLot .orderedUserCabinetPanelOrderedLotItem .orderedUserCabinetPanelOrderedLotsBlockLotItemCounter span
+{
+	font-weight: bold;
+	padding-right: 10px;
+}

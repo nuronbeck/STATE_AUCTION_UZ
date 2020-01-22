@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="styles/userCabinetSettings.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="orderedUserCabinetContainer">
+	
+	<div class="orderedUserCabinetDashboard">
+		<div class="orderedUserCabinetUserName">
+			<div class="orderedUserCabinetUserIcon"></div>
+			Иванов И.И.
+		</div>
+		<div class="orderedUserCabinetMenu">
+			<div class="orderedUserCabinetMenuItems">История сделок</div>
+			<div class="orderedUserCabinetMenuItems activeMenuItem">Настройки</div>
+			<div class="orderedUserCabinetMenuItems">Выход</div>
+		</div>
+	</div>
+
+	<div class="orderedUserCabinetPanel">
+		<div class="orderedUserCabinetPanelMyOrders">
+			<span>Настройки юридических данных</span>
+		</div>
+		<div class="orderedUserCabinetPanelOrderedLotsBlock">
+			<form class="userCabinetSettingsForm">
+				<div class="fioBlock">
+					<span>Ф.И.О. руководителя организации:</span>
+					<input type="text"/>
+				</div>
+				<div class="fullNameOrgBlock">
+					<span>Полное наименование юридического лица:</span>
+					<input type="text"/>
+				</div>
+				<div class="lawNameShortNumberBlock">
+					<div class="lawShortName">
+						<span>Сокращенное наименование юридического лица:</span>
+						<input type="text"/>
+					</div>
+					<div class="numberBlock">
+						<span>Номер телефона:</span>
+						<input type="text"/>
+					</div>
+				</div>
+				<div class="fullNameOrgBlock">
+					<span>Адрес место нахождения (фактический адрес):</span>
+					<input type="text"/>
+				</div>
+				<div class="fullNameOrgBlock">
+					<span>Юридический адрес:</span>
+					<input type="text"/>
+				</div>
+				<div class="lawCodesTitle">Реквизиты:</div>
+				<div class="lawCodesBlock">
+					<div class="lowCodesColumns">
+						<div class="lowCodeItem">
+							<span>ИНН:</span>
+							<input type="text"/>
+						</div>
+						<div class="lowCodeItem">
+							<span>ОКПО:</span>
+							<input type="text"/>
+						</div>
+						<div class="lowCodeItem">
+							<span>ОКВЭД:</span>
+							<input type="text"/>
+						</div>
+					</div>
+					<div class="lowCodesColumns">
+						<div class="lowCodeItem">
+							<span>КПП:</span>
+							<input type="text"/>
+						</div>
+						<div class="lowCodeItem">
+							<span>ОГРН:</span>
+							<input type="text"/>
+						</div>
+					</div>
+				</div>
+
+				<div class="saveUserSettingsBlock">
+					<input type="submit" class="saveUserSettingsButton" value="Сохранить данные" />
+				</div>
+			</form>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+.container
+{
+	width: 96vw;
+	margin: 0 auto;
+}
+.tableContent table
+{
+	border-left: 1px solid #727272;
+	border-top: 1px solid #727272;
+	border-spacing: 0;
+	font-size: 20px;
+	font-family: Roboto;
+	width: 100%;
+}
+.tableContent table tr td
+{
+	border-bottom: 1px solid #727272;
+	border-right: 1px solid #727272;
+	text-align: center;
+}
+.tableContent table .tableHeader
+{
+	background-color: #3C948B;
+	color: #fff;
+	height: 32px;
+}
+.tableContent table .tableHeader td
+{
+	padding: 16px;
+}
+.tableContent table .tableData
+{
+	color: #000;
+	height: 32px;
+}
+.tableContent table .tableData td a
+{
+    color: #000;
+}
+.tableContent table .tableData:hover
+{
+    cursor: pointer;
+	background-color: rgba(60, 148, 139, 0.2);
+}
+.tableContent table .tableData:nth-child(odd)
+{
+	background-color: #ECECEC;
+}
+.tableContent table .tableData:hover
+{
+	background-color: rgba(60, 148, 139, 0.2);
+}
+.tableContent table .tableData td
+{
+	padding: 20px;
+}
+
+.nextPageBlock
+{
+	padding-top: 30px;
+	text-align: right;
+	padding-right: 4%;
+	padding-bottom: 70px;
+}
+.nextPageBlock .btnNextLots
+{
+	background-color: #0098B9;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: Roboto;
+	border: none;
+	padding: 10px 15px;
+	transition: .2s ease-in-out;
+}
+.nextPageBlock .btnNextLots:hover
+{
+	transform: scale(1.05);
+}

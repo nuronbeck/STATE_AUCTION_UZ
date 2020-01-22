@@ -1,0 +1,49 @@
+.customerCabinetBody
+{
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto;
+}
+.customerCabinetBody .CabinetLeftMenu
+{
+  width: 250px;
+  background-color: #3C948B;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: #fff;
+
+}
+.customerCabinetBody .CabinetLeftMenu div li:nth-child(odd)
+{
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+}
+.customerCabinetBody .CabinetLeftMenu div li
+{
+  display: block;
+}
+.customerCabinetBody .CabinetLeftMenu  .customerCabinetName
+{
+  background-color: #236D65;
+  padding: 20px 0 20px 20px;
+}
+.customerCabinetBody .CabinetLeftMenu  .customerCabinetMenuItems li
+{
+  cursor: pointer;
+  padding: 20px 0 20px 20px;
+  transition: .2s;
+}
+.customerCabinetBody .CabinetLeftMenu  .customerCabinetMenuItems li:hover
+{
+  background-color: #236D65;
+}
+.customerCabinetBody .CabinetRightBlock
+{
+  margin-left: 250px;
+  width: 70vw;
+}

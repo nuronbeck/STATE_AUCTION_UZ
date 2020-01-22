@@ -1,0 +1,76 @@
+.signInBody
+{
+	background-color: #236D65;
+}
+.authContainer
+{
+	width: 650px;
+	margin: 0 auto;
+	background-color: #3C948B;
+	color: #fff;
+	font-size: 18px;
+	font-family: Roboto;
+	margin-top: 20vh;
+	padding: 10px 0 40px 0;
+	border-radius: 3px;
+}
+.authContainer hr
+{
+	width: 80%;
+}
+.authContainer .signInTitle
+{
+	color: #fff;
+	font-size: 24px;
+	padding: 20px 0 10px 0;
+}
+.authContainer div
+{
+	text-align: center;
+}
+.authContainer .signInInputs
+{
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+}
+.authContainer .signInInputs p input[type="email"], .authContainer .signInInputs p input[type="password"], .authContainer .signInInputs p input[type="submit"]
+{
+	font-size: 18px;
+	width: 80%;
+	border: none;
+	padding: 5px;
+	background-color: #D2F4FC;
+}
+.authContainer .signInInputs p input[type="email"], .authContainer .signInInputs p input[type="password"]
+{
+	padding-left: 15px;
+}
+.authContainer .signInInputs .signIncheckParag
+{
+	text-align: left;
+	padding-left: 4%;
+}
+.authContainer .signInInputs p input[type="submit"]
+{
+	background-color: #0098B9;
+	color: #fff;
+	border: 1px solid #fff;
+	width: 92%;
+	transition: .2s;
+}
+.authContainer .signInInputs p input[type="submit"]:hover
+{
+	transform: scale(1.05);
+}
+.authContainer .signInInputs p span
+{
+	background-color: #0098B9;
+	color: #fff;
+	font-size: 18px;
+	padding: 5px 6px;
+}
+.authContainer .signInInputs p a
+{
+	color: #5AE1FF;
+}

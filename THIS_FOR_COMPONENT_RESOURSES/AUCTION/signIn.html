@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Авторизация</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/signIn.css">
+</head>
+<body class="signInBody">
+	<div class="authContainer">
+		<form action="signIn" method="POST">
+			<div class="signInTitle">Авторизация</div>
+			<hr>
+			<div class="signInInputs">
+				<p>
+					<span>✉</span>
+					<input type="email" placeholder="Email">
+				</p>
+				<p>
+					<span>✎</span>
+					<input type="password" placeholder="Пароль">
+				</p>
+				<p class="signIncheckParag"> <input type="checkbox"> Запомнить меня </p>
+				<p> <input type="submit" value="Войти"> </p>
+				<p>Еще не зарегистрированы?</p>
+				<p> <a href="signUp">Зарегистрируйтесь</a> </p>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

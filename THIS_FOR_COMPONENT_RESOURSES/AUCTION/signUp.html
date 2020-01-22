@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/signUp.css">
+  </head>
+  <body>
+    <div class="signUpContainer">
+      <div class="signUpFormDiv">
+        <div class="signUpTitle">Регистрация</div>
+        <hr style="width: 84%; margin: 0 auto; margin-bottom: 10px;">
+        <form class="signUpForm" action="signUp" method="post">
+          <div class="formContainer">
+            <p>ФИО: </p>
+            <p><input type="text" placeholder="Иванов Иван Иванович"> </p>
+            <p>Email: </p>
+            <p><input type="email" placeholder="ivanov@example.com"> </p>
+            <p>Пароль: </p>
+            <p><input type="password" placeholder="•••••••••"> </p>
+            <p>Повторите пароль: </p>
+            <p><input type="password" placeholder="•••••••••"> </p>
+            <p class="meWho">Я:
+              <input type="radio" checked name="me" value="1"> Исполнитель
+              <input type="radio" name="me" value="2"> Заказчик
+            </p>
+            <hr>
+            <p><input type="checkbox"  value=""> Согласен на обработку персональных данных</p>
+            <p class="signUpSubmitParagraph"><input type="submit" name="" value="Зарегистрироваться"> </p>
+            <p>Есть аккаунт? Тогда <a href="signIn">авторизуйтесь</a> </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

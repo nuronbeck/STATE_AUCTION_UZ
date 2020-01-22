@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="styles/userCabinetSettings.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="orderedUserCabinetContainer">
+	
+	<div class="orderedUserCabinetDashboard">
+		<div class="orderedUserCabinetUserName">
+			<div class="orderedUserCabinetUserIcon"></div>
+			Иванов И.И.
+		</div>
+		<div class="orderedUserCabinetMenu">
+			<div class="orderedUserCabinetMenuItems">История сделок</div>
+			<div class="orderedUserCabinetMenuItems">Настройки</div>
+			<div class="orderedUserCabinetMenuItems">Выход</div>
+		</div>
+	</div>
+
+	<div class="orderedUserCabinetPanel">
+		<div class="orderedUserCabinetPanelMyOrders">
+			<span>Создание новой закупки</span>
+		</div>
+		<div class="orderedUserCabinetPanelOrderedLotsBlock">
+			<div class="userCabinetSettingsForm">
+				<div class="fullNameOrgBlock">
+					<span>Введите адрес поставки лота:</span>
+					<input type="text"/>
+				</div>
+				<div class="lawNameShortNumberBlock">
+					<div class="lawShortName">
+						<span>Выберите город:</span>
+						<select name="citySel" class="addLotCitySelect">
+							<option value="1">Tashkent</option>
+							<option value="1">Tashkent</option>
+							<option value="1">Tashkent</option>
+						</select>
+					</div>
+					<div class="numberBlock">
+						<span>Срок поставки в течении:</span>
+						<input type="text" placeholder="... рабочих дней" />
+					</div>
+				</div>
+				<div class="fullNameOrgBlock">
+					<span>Описание или требование к текущему лоту:</span>
+					<textarea class="addLotPrivacyDescription" rows="6"></textarea>
+				</div>
+				<br>
+				<br>
+				<div class="classAddProductCrudTitle"><b>Добавьте закупаемые товары:</b></div>
+				<hr>
+				<br>
+				<div class="fullNameOrgBlock">
+					<span>Наименование товара:</span>
+					<input type="text"/>
+				</div>
+				<div class="addItemsToLotBlock">
+					<div class="addToLotItemParams">
+						<span>Количество:</span>
+						<input type="text"/>
+					</div>
+					<div class="addToLotItemParams">
+						<span>Единица измерения:</span>
+						<select>
+							<option value="1">штук</option>
+						</select>
+					</div>
+					<div class="addToLotItemParams">
+						<span>Стартовая цена:</span>
+						<input type="text" placeholder="... рублей" />
+					</div>
+				</div>
+				<div class="addItemsToLotButtonBlock">
+					<input type="button" value="Добавить товар"/>
+				</div>
+				<hr/>
+
+				<div class="addedToStateNewLotItems">
+
+					<div class="addedToStateNewLotOneItem">
+						<div class="addedToStateNewLotOneItemDescription">Масло моторное 5W-40 для автомашины УАЗ 3163-175</div>
+						<table>
+							<tr>
+								<td>Количество</td>
+								<td>Ед. измерения</td>
+								<td>Стартовая цена</td>
+							</tr>
+							<tr>
+								<td>165.0</td>
+								<td>литр</td>
+								<td>4350 руб.</td>
+							</tr>
+						</table>
+						<div class="deleteAddedToStateNewLotItemBlock">
+							<input type="button" class="deleteAddedToStateNewLotItem" value="удалить товар"/>
+						</div>
+					</div>
+
+				</div>
+
+
+				<hr/>
+				<div class="saveUserSettingsBlock">
+					<input type="submit" class="saveUserSettingsButton" value="Выставить на аукцион" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

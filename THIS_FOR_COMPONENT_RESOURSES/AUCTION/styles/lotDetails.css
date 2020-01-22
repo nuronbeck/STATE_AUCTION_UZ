@@ -1,0 +1,142 @@
+.lotDetailsListHeader
+{
+	color: #206F67;
+	font-size: 26px;
+	padding: 40px 0 20px 0;
+	padding-left: 15%;
+	border-bottom: 1px solid #727272;
+	margin-bottom: 30px;
+}
+.lotDetailsListHeader .lotDetailsTitle
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.lotDetailsListHeader .lotDetailsTitle .lotDetailsSumm
+{
+	font-weight: bold;
+	font-size: 22px;
+}
+.lotTovarTables .lotTovarsBlocks
+{
+	padding-bottom: 45px;
+}
+.lotTovarTables .lotTovarsBlocks .nameLotTovar
+{
+	font-size: 22px;
+}
+.lotTovarTables .lotTovarsBlocks .nameLotTovar span
+{
+	font-weight: bold;
+}
+.container
+{
+	width: 96vw;
+	margin: 0 auto;
+}
+.lotDetailsTableContent table
+{
+	border-left: 1px solid #727272;
+	border-top: 1px solid #727272;
+	border-spacing: 0;
+	font-size: 20px;
+	font-family: Roboto;
+	width: 100%;
+	box-shadow: 2px 7px 5px rgba(0,0,0,0.15)
+}
+.lotDetailsTableContent table tr td
+{
+	border-bottom: 1px solid #727272;
+	border-right: 1px solid #727272;
+	text-align: center;
+}
+.lotDetailsTableContent table .tableHeader
+{
+	background-color: #0098B9;
+	height: 32px;
+}
+.lotDetailsTableContent table .tableHeader td
+{
+	padding: 16px;
+}
+.lotDetailsTableContent table .tableData
+{
+	color: #000;
+	height: 32px;
+}
+.lotDetailsTableContent table .tableData td
+{
+	padding: 20px;
+}
+.lotDetailsTableContent table .tableData .lotTovarStartPrice
+{
+	color: #FF0000;
+}
+.lotDetailsTableContent table .tableData .lotTovarSuggestPrice
+{
+	color: #4EAA62;
+}
+.lotDetailsSuggestBlock
+{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 24px;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+	padding-top: 50px;
+	text-align: right;
+}
+.lotDetailsSuggestBlock .lotDetailsProductForm
+{
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	padding-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.lotDetailsProductForm .lotDetailsProductFormInput input
+{
+	margin-right: 5px;
+	margin-top: 5px;
+	background-color: #D2F4FC;
+	border: none;
+	text-align: center;
+	color: rgba(0,0,0,0.8);
+}
+.lotDetailsSuggestBlock input
+{
+	margin-top: 20px;
+	background-color: #AAB900;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	transition: .3s transform;
+	margin-right: 100px;
+}
+.lotDetailsSuggestBlock input:hover
+{
+	transform: scale(1.1);
+}
+.lotDetailsFullDescriptionBlock
+{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 24px;
+	text-align: justify;
+}
+.lotDetailsFullDescriptionBlock .lotDetailsFullDescriptionTitle
+{
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0;
+}
+.lotDetailsFullDescriptionBlock .lotDetailsFullDescriptionText
+{
+	padding-bottom: 150px;
+}

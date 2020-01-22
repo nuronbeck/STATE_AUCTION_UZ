@@ -1,0 +1,316 @@
+.orderedUserCabinetContainer
+{
+	display: block;
+}
+
+.orderedUserCabinetDashboard
+{
+	width: 250px;
+	height: 100vh;
+	background-color: #3C948B;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: flex-start;
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Roboto';
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetUserName
+{
+	height: 80px;
+	background-color: #236D65;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	border-bottom: 1px solid #000;
+	padding: 0 10px;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetUserName .orderedUserCabinetUserIcon
+{
+	width: 60px;
+	height: 60px;
+	background-color: #5AE1FF;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetMenu
+{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: flex-start;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetMenu .orderedUserCabinetMenuItems
+{
+	padding: 17px 10px;
+	border-bottom: 1px solid #000;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+.activeMenuItem
+{
+	background-color: #22AA9C;
+}
+.orderedUserCabinetDashboard .orderedUserCabinetMenu .orderedUserCabinetMenuItems:hover
+{
+	background-color: #22AA9C;
+}
+
+.orderedUserCabinetContainer .orderedUserCabinetPanel
+{
+	width: 80%;
+	margin-left: 250px;
+	height: 200vh;
+	font-family: 'Roboto';
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelMyOrders
+{
+	height: 80px;
+	padding: 0 15px 0 115px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	color: #206F67;
+	border-bottom: 1px solid #727272;
+
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelMyOrders span
+{
+	font-size: 30px;
+}
+.orderedUserCabinetContainer .orderedUserCabinetPanel .orderedUserCabinetPanelOrderedLotsBlock
+{
+	font-family: 'Roboto';
+	padding: 50px;
+}
+.userCabinetSettingsForm
+{
+	font-size: 24px;
+}
+.userCabinetSettingsForm
+{
+	width: 100%;
+}
+.userCabinetSettingsForm input[type="text"]
+{
+	background-color: #D2F4FC;
+	border: none;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+.userCabinetSettingsForm span
+{
+	padding-bottom: 5px;
+}
+.userCabinetSettingsForm div
+{
+	display: flex;
+	padding-bottom: 10px;
+}
+.userCabinetSettingsForm .fioBlock
+{
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.userCabinetSettingsForm .fioBlock *
+{
+	width: 48%;
+}
+.userCabinetSettingsForm .fullNameOrgBlock
+{
+	flex-direction: column;
+}
+.userCabinetSettingsForm .lawNameShortNumberBlock
+{
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.userCabinetSettingsForm .lawNameShortNumberBlock div
+{
+	flex-direction: column;
+}
+.userCabinetSettingsForm .lawNameShortNumberBlock .lawShortName
+{
+	width: 68%;
+}
+.userCabinetSettingsForm .lawNameShortNumberBlock .numberBlock
+{
+	width: 30%;
+}
+.userCabinetSettingsForm .lawCodesTitle
+{
+	padding-top: 20px;
+}
+.userCabinetSettingsForm .lawCodesBlock
+{
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+}
+.userCabinetSettingsForm .lawCodesBlock .lowCodesColumns
+{
+	width: 49.5%;
+	display: flex;
+	flex-direction: column;
+}
+.userCabinetSettingsForm .lawCodesBlock .lowCodesColumns:nth-child(1)
+{
+	padding-right: 3%;
+}
+.userCabinetSettingsForm .lawCodesBlock .lowCodesColumns .lowCodeItem
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.userCabinetSettingsForm .lawCodesBlock .lowCodesColumns .lowCodeItem span
+{
+	padding-right: 5%;
+}
+.userCabinetSettingsForm .lawCodesBlock .lowCodesColumns .lowCodeItem input
+{
+	width: 72%;
+}
+.userCabinetSettingsForm .saveUserSettingsBlock
+{
+	padding: 50px 20px 50px 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.userCabinetSettingsForm .saveUserSettingsBlock .saveUserSettingsButton
+{
+	padding: 14px 20px;
+	background-color: #0098B9;
+	color: #fff;
+	border-radius: 8px;
+	border: none;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.7)
+}
+.userCabinetSettingsForm .saveUserSettingsBlock .saveUserSettingsButton:hover
+{
+	transform: scale(1.05);
+	box-shadow: 1px 1px 15px rgba(0,0,0,0.5)
+}
+
+
+
+.addLotCitySelect, .addLotPrivacyDescription
+{
+	background-color: #D2F4FC;
+	border: none;
+	border-radius: 3px;
+	padding: 3px 10px;
+}
+.addItemsToLotBlock
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.addItemsToLotBlock .addToLotItemParams
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.addItemsToLotBlock .addToLotItemParams select
+{
+	background-color: #D2F4FC;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.addItemsToLotButtonBlock
+{
+	display: flex;
+	justify-content: flex-end;
+}
+.addItemsToLotButtonBlock input[type="button"]
+{
+	background-color: #3C948B;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+	padding: 7px 10px;
+	transition: transform .3s ease-in-out;
+	cursor: pointer;
+}
+.addItemsToLotButtonBlock input[type="button"]:hover
+{
+	transform: scale(1.04);
+}
+
+
+
+
+
+.addedToStateNewLotItems
+{
+	display: flex;
+	flex-direction: row;
+}
+.addedToStateNewLotOneItem
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.addedToStateNewLotOneItemDescription
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 24px;
+}
+.addedToStateNewLotOneItem table
+{
+	width: 100%;
+	border: 1px solid #000;
+	border-spacing: 0;
+	font-size: 20px;
+}
+.addedToStateNewLotOneItem table tr td
+{
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: #0098B9;
+	padding: 15px 0;
+	text-align: center;
+}
+.addedToStateNewLotOneItem table tr td:last-child
+{
+	border-right: none;
+}
+.addedToStateNewLotOneItem table tr:last-child td
+{
+	border-bottom: none;
+	background-color: #fff;
+}
+.addedToStateNewLotOneItem table tr:last-child td:nth-child(3)
+{
+	color: #4EAA62;
+}
+.deleteAddedToStateNewLotItemBlock
+{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+.deleteAddedToStateNewLotItemBlock .deleteAddedToStateNewLotItem
+{
+	cursor: pointer;
+	color: #f00;
+	border: none;
+	background-color: #fff;
+	border-bottom: 1px solid #f00;
+}

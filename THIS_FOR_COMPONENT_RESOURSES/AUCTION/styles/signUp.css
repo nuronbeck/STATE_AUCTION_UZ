@@ -1,0 +1,71 @@
+.signUpContainer
+{
+  background-color: #236D65;
+  height: 90vh;
+  font-family: Roboto;
+  padding-top: 10vh;
+}
+.signUpFormDiv
+{
+  margin: 0 auto;
+  width: 750px;
+  background-color: #3C948B;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0 20px 0;
+  border-radius: 3px;
+}
+.signUpFormDiv .signUpTitle
+{
+  font-size: 24px;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  color: #fff;
+}
+.signUpFormDiv .formContainer
+{
+  width: 50%;
+  margin: 0 auto;
+}
+.signUpFormDiv .signUpSubmitParagraph
+{
+  text-align: center;
+}
+.signUpFormDiv p
+{
+  margin: 12px 0;
+}
+.signUpFormDiv .meWho input
+{
+  margin-left: 15px;
+  width: auto;
+}
+.signUpFormDiv p input[type="text"], .signUpFormDiv p input[type="email"], .signUpFormDiv p input[type="password"]
+{
+  background-color: #D2F4FC;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  padding: 4px 10px;
+}
+.signUpFormDiv .signUpSubmitParagraph input
+{
+  background-color: #0098B9;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 10px;
+  width: 100%;
+  transition: .2s;
+}
+.signUpFormDiv .signUpSubmitParagraph input:hover
+{
+  transform: scale(1.05);
+}
+.signUpFormDiv p:last-child
+{
+  text-align: center;
+}
+.signUpFormDiv p:last-child a
+{
+  color: #5AE1FF;
+}
